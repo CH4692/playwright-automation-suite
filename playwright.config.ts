@@ -10,10 +10,10 @@ export default defineConfig({
   reporter: "html",
   use: {
     baseURL: "https://www.saucedemo.com",
-    trace: "on-first-retry",
-    screenshot: "only-on-failure",
-    video: "retain-on-failure",
     headless: true,
+    screenshot: "only-on-failure",
+    trace: "on",
+    video: "on",
   },
   projects: [
     {
